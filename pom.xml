@@ -8,7 +8,7 @@
 		<version>2.4.1</version>
 		<relativePath/>
 	</parent>
-	<groupId>com.honore</groupId>
+	<groupId>com.Emmanuel</groupId>
 	<artifactId>Ecommerce</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Ecommerce</name>
@@ -69,17 +69,17 @@
 			<artifactId>spring-boot-starter-mail</artifactId>
 		</dependency>
 
-<!--		<dependency>-->
-<!--			<groupId>com.h2database</groupId>-->
-<!--			<artifactId>h2</artifactId>-->
-<!--			<scope>runtime</scope>-->
-<!--		</dependency>-->
-
 		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
+<!--		<dependency>-->
+<!--			<groupId>org.postgresql</groupId>-->
+<!--			<artifactId>postgresql</artifactId>-->
+<!--			<scope>runtime</scope>-->
+<!--		</dependency>-->
 	</dependencies>
 	<build>
 		<plugins>
